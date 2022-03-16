@@ -1,15 +1,3 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LRLBHJD1CS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-LRLBHJD1CS');
-</script>
-</head>
-
 There has been a tremendous advancement in machine learning methods over the past ten years. These advancements are reflected in robotics research primarily as ad-hoc solutions to different problems, such as learning to grasp simple objects [[1](#1), [2](#2)], learning movement primitives from demonstrations [[3](#3), [4](#4)] and so on. Although such solutions push the frontiers of robotics research, there is still a large gap between current methods and generally capable agents that learn skills and representations of progressive complexity to solve increasingly complex problems in an environment without forgetting previously learned skills, which is the ultimate aim of artificial intelligence research. Several studies [[5](#5), [6](#6), [7](#7), [8](#8)] focus on learning representations in an open-ended, continual manner in order to develop general skills without manually designing reward functions or curricula. The main advantage of open-ended (or life-long, or continual) learning is that the learning loop never stops by design; the agent autonomously generates new challenges, tasks, environments, and goals to explore and learn new skills. This opens new possibilities for learning emergent skills not foreseen in hindsight. However, these methods do not precisely fit robot learning as we cannot arbitrarily evolve the embodiment of the agent and the real world.
 
 This workshop will focus on how to create open-ended or life-long learning systems [[9](#9), [10](#10)] that will allow for a robot to autonomously explore its environment and learn ever-growing representations for perception and actuation. This is an underexplored area in robotics and artificial intelligence research that can contribute to the development of generally capable agents. We will discuss the necessary elements (e.g., methods, environments, datasets, embodiments) for a life-long learning setting. We will encourage participants to take part in discussions with the following points:
