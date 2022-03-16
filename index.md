@@ -11,13 +11,13 @@ This workshop will focus on how to create open-ended or life-long learning syste
 
 We believe that approaching robot learning from a life-long learning perspective might be a feasible approach for truly intelligent robots. Stimulating discussions with the robotics community will be very valuable to understand if such an approach is indeed worth exploring or not.
 
-1. <a name=1></a> Pinto, Lerrel, and Abhinav Gupta. "Supersizing self-supervision: Learning to grasp from 50k tries and 700 robot hours." 2016 IEEE international conference on robotics and automation (ICRA). IEEE, 2016.  
-2. <a name=2></a> Murali, Adithyavairavan, et al. "Learning to grasp without seeing." International Symposium on Experimental Robotics. Springer, Cham, 2018.  
-3. <a name=3></a> Paraschos, Alexandros, et al. "Probabilistic movement primitives." Advances in neural information processing systems 26 (2013).  
-4. <a name=4></a> Seker, Muhammet Yunus, et al. "Conditional Neural Movement Primitives." Robotics: Science and Systems. Vol. 10. 2019.  
-5. <a name=5></a> Wang, Rui, et al. "Paired open-ended trailblazer (poet): Endlessly generating increasingly complex and diverse learning environments and their solutions." arXiv preprint arXiv:1901.01753 (2019).  
-6. <a name=6></a> Wang, Rui, et al. "Enhanced poet: Open-ended reinforcement learning through unbounded invention of learning challenges and their solutions." International Conference on Machine Learning. PMLR, 2020.  
-7. <a name=7></a> Team, Open Ended Learning, et al. "Open-ended learning leads to generally capable agents." arXiv preprint arXiv:2107.12808 (2021).  
-8. <a name=8></a> Parker-Holder, Jack, et al. "Evolving Curricula with Regret-Based Environment Design." arXiv preprint arXiv:2203.01302(2022).  
-9. <a name=9></a> Thrun, Sebastian, and Tom M. Mitchell. "Lifelong robot learning." Robotics and autonomous systems 15.1-2 (1995): 25-46.  
-10. <a name=10></a> Oztop, Erhan, and Emre Ugur. (2021) Lifelong Robot Learning. In: Ang M.H., Khatib O., Siciliano B. (eds) Encyclopedia of Robotics. Springer, Berlin, Heidelberg, 2021.  
+1. <a name=1></a>Pinto, Lerrel, and Abhinav Gupta. "Supersizing self-supervision: Learning to grasp from 50k tries and 700 robot hours." 2016 IEEE international conference on robotics and automation (ICRA). IEEE, 2016.  
+2. <a name=2></a>Murali, Adithyavairavan, et al. "Learning to grasp without seeing." International Symposium on Experimental Robotics. Springer, Cham, 2018.  
+3. <a name=3></a>Paraschos, Alexandros, et al. "Probabilistic movement primitives." Advances in neural information processing systems 26 (2013).  
+4. <a name=4></a>Seker, Muhammet Yunus, et al. "Conditional Neural Movement Primitives." Robotics: Science and Systems. Vol. 10. 2019.  
+5. <a name=5></a>Wang, Rui, et al. "Paired open-ended trailblazer (poet): Endlessly generating increasingly complex and diverse learning environments and their solutions." arXiv preprint arXiv:1901.01753 (2019).  
+6. <a name=6></a>Wang, Rui, et al. "Enhanced poet: Open-ended reinforcement learning through unbounded invention of learning challenges and their solutions." International Conference on Machine Learning. PMLR, 2020.  
+7. <a name=7></a>Team, Open Ended Learning, et al. "Open-ended learning leads to generally capable agents." arXiv preprint arXiv:2107.12808 (2021).  
+8. <a name=8></a>Parker-Holder, Jack, et al. "Evolving Curricula with Regret-Based Environment Design." arXiv preprint arXiv:2203.01302(2022).  
+9. <a name=9></a>Thrun, Sebastian, and Tom M. Mitchell. "Lifelong robot learning." Robotics and autonomous systems 15.1-2 (1995): 25-46.  
+10. <a name=10></a>Oztop, Erhan, and Emre Ugur. (2021) Lifelong Robot Learning. In: Ang M.H., Khatib O., Siciliano B. (eds) Encyclopedia of Robotics. Springer, Berlin, Heidelberg, 2021.  
