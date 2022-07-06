@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+    <title>Lifelong Robotics</title>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LRLBHJD1CS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-LRLBHJD1CS');
+    </script>
+</head>
+<body>
+    <div class="container" style="max-width: 720px">
+        <header class="row mt-1 mb-1 text-center bg-info rounded" style="background-color: blue"><h1>IROS 2022 Workshop on<br>Life-long Learning of High-level Cognitive and Reasoning Skills</h1></header>
+        <div class="row bg-light rounded border border-secondary">
+            <nav class="navbar-nav">
+                <ul class="nav align-self-center">
+                    <li class="nav-link"><a class="btn btn-outline-secondary" href="#about">About</a></li>
+                    <li class="nav-link"><a class="btn btn-outline-secondary" href="#invited">Invited Speakers</a></li>
+                    <li class="nav-link"><a class="btn btn-outline-secondary" href="#organizing">Organizing</a></li>
+                    <li class="nav-link"><a class="btn btn-outline-secondary" href="#schedule">Schedule</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row" id="about"><h2>About</h2></div>
+        <div class="row">
+            <div class="col">
+            <p>There has been a tremendous advancement in machine learning methods over the past ten years. These advancements are reflected in robotics research primarily as ad-hoc solutions to different problems, such as learning to grasp simple objects <a href="#r1">[1]</a>, <a href="#r2">[2]</a>, learning movement primitives from demonstrations <a href="#r3">[3]</a>, <a href="#r4">[4]</a> and so on. Although such solutions push the frontiers of robotics research, there is still a large gap between current methods and generally capable agents that learn skills and representations of progressive complexity to solve increasingly complex problems in an environment without forgetting previously learned skills, which is the ultimate aim of artificial intelligence research. Several studies <a href="#r5">[5]</a>, <a href="#r6">[6]</a>, <a href="#r7">[7]</a>, <a href="#r8">[8]</a> focus on learning representations in an open-ended, continual manner in order to develop general skills without manually designing reward functions or curricula. The main advantage of open-ended (or life-long, or continual) learning is that the learning loop never stops by design; the agent autonomously generates new challenges, tasks, environments, and goals to explore and learn new skills. This opens new possibilities for learning emergent skills not foreseen in hindsight. However, these methods do not precisely fit robot learning as we cannot arbitrarily evolve the embodiment of the agent and the real world.</p>
+            <p>This workshop will focus on how to create open-ended or life-long learning systems <a href="#r9">[9]</a>, <a href="#r10">[10]</a> that will allow for a robot to autonomously explore its environment and learn ever-growing representations for perception and actuation. This is an underexplored area in robotics and artificial intelligence research that can contribute to the development of generally capable agents. We will discuss the necessary elements (e.g., methods, environments, datasets, embodiments) for a life-long learning setting. We will encourage participants to take part in discussions with the following points:
+            <ul>
+                <li>How to adopt the current open-ended methods for life-long robot learning</li>
+                <li>Are the current machine learning methods sufficient for life-long learning?</li>
+                <li>How to combine the current toolset of ML for life-long learning</li>
+                <li>How to design end-to-end systems for life-long learning</li>
+                <li>What are the necessary components for a life-long learning system? Which parts should we take for granted?</li>
+                <li>How to design appropriate environments both in simulation and real-world that support life-long learning</li>
+            </ul></p>
+            <p>We believe that approaching robot learning from a life-long learning perspective might be a feasible approach for truly intelligent robots. Stimulating discussions with the robotics community will be very valuable to understand if such an approach is indeed worth exploring or not.</p>
+            </div>
+        </div>
+        <div class="row" id="invited"><h2>Invited Speakers</h2></div>
+        <div class="row my-1">
+            <div class="col-3"><img src="images/eric.jpeg" class="img-fluid rounded"><a href="https://www.seas.upenn.edu/~eeaton/">Eric Eaton</a>, University of Pennsylvania</div>
+            <div class="col-3"><img src="images/george.jpeg" class="img-fluid rounded"><a href="https://cs.brown.edu/people/gdk/">George Konidaris</a>, Brown University</div>
+            <div class="col-3"><img src="images/jeff.jpeg" class="img-fluid rounded"><a href="http://jeffclune.com">Jeff Clune</a>, OpenAI, University of British Columbia</div>
+            <div class="col-3"><img src="images/jun.jpeg" class="img-fluid rounded"><a href="https://groups.oist.jp/cnru/jun-tani">Jun Tani</a>, Okinawa Institute of Science and Technology</div>
+        </div>
+        <div class="row my-1">
+            <div class="col-3"><img src="images/minoru.jpeg" class="img-fluid rounded"><a href="http://www.er.ams.eng.osaka-u.ac.jp/asadalab/?page_id=330&lang=en">Minoru Asada</a>, Osaka University</div>
+            <div class="col-3"><img src="images/stefanie.jpeg" class="img-fluid rounded"><a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>, Brown University</div>
+            <div class="col-3"><img src="images/tamim.jpeg" class="img-fluid rounded"><a href="https://scholar.google.com/citations?user=65bIT4oAAAAJ&hl=en">Tamim Asfour</a>, Karlsruhe Institute of Technology</div>
+            <div class="col-3"><img src="images/yukie.jpeg" class="img-fluid rounded"><a href="https://developmental-robotics.jp/en/members/yukie_nagai/">Yukie Nagai</a>, University of Tokyo</div>
+        </div>
+        <div class="row" id="organizing"><h2>Organizing Team</h2></div>
+        <div class="row">
+            <div class="row my-1"> 
+                <div class="col-2"><img src="images/alper.jpeg" class="img-fluid rounded"></div>
+                <div class="col-4"><a href="https://alpera.xyz">Alper Ahmetoglu</a> (main contact)<br>Bogazici University, Turkey</div>
+                <div class="col-2"><img src="images/tuluhan.jpeg" class="img-fluid rounded"></div>
+                <div class="col-4"><a href="https://scholar.google.com/citations?user=Zddf-sEAAAAJ&hl=en">Mete Tuluhan Akbulut</a><br> Brown University, Rhodes Island (US)</div>
+            </div>
+            <div class="row my-1"> 
+                <div class="col-2"><img src="images/erhan.jpeg" class="img-fluid rounded"></div>
+                <div class="col-4"><a href="https://robotics.ozyegin.edu.tr/members/erhan-oztop/">Erhan Oztop</a><br>Ozyegin University, Turkey<br>Osaka University, Japan</div>
+                <div class="col-2"><img src="images/justus.jpeg" class="img-fluid rounded"></div>
+                <div class="col-4"><a href="https://iis.uibk.ac.at/people/justus">Justus Piater</a><br>University of Innsbruck, Austria</div>
+            </div>
+            <div class="row my-1"> 
+                <div class="col-2"><img src="images/tadahiro.jpeg" class="img-fluid rounded"></div>
+                <div class="col-4"><a href="https://www.tanichu.com">Tadahiro Taniguchi</a><br>Ritsumeikan University, Japan</div>
+                <div class="col-2"><img src="images/emre.jpeg" class="img-fluid rounded"></div>
+                <div class="col-4"><a href="https://www.cmpe.boun.edu.tr/~emre/">Emre Ugur</a><br>Bogazici University, Turkey</div>
+            </div>
+        </div>
+        <div class="row" id="schedule"><h2>Schedule</h2></div>
+        <div class="row">
+            <div class="col">
+                To be announced.
+            </div>
+        </div>
+        <div class="row"><h3>References</h3></div>
+        <div class="row">
+            <div class="col">
+                <ol>
+                    <li><a id="r1"></a>Pinto, Lerrel, and Abhinav Gupta. "Supersizing self-supervision: Learning to grasp from 50k tries and 700 robot hours." 2016 IEEE international conference on robotics and automation (ICRA). IEEE, 2016.</li>
+                    <li><a id="r2"></a>Murali, Adithyavairavan, et al. "Learning to grasp without seeing." International Symposium on Experimental Robotics. Springer, Cham, 2018.</li>
+                    <li><a id="r3"></a>Paraschos, Alexandros, et al. "Probabilistic movement primitives." Advances in neural information processing systems 26 (2013).</li>
+                    <li><a id="r4"></a>Seker, Muhammet Yunus, et al. "Conditional Neural Movement Primitives." Robotics: Science and Systems. Vol. 10. 2019.</li>
+                    <li><a id="r5"></a>Wang, Rui, et al. "Paired open-ended trailblazer (poet): Endlessly generating increasingly complex and diverse learning environments and their solutions." arXiv preprint arXiv:1901.01753 (2019).</li>
+                    <li><a id="r6"></a>Wang, Rui, et al. "Enhanced poet: Open-ended reinforcement learning through unbounded invention of learning challenges and their solutions." International Conference on Machine Learning. PMLR, 2020.</li>  
+                    <li><a id="r7"></a>Team, Open Ended Learning, et al. "Open-ended learning leads to generally capable agents." arXiv preprint arXiv:2107.12808 (2021).</li>
+                    <li><a id="r8"></a>Parker-Holder, Jack, et al. "Evolving Curricula with Regret-Based Environment Design." arXiv preprint arXiv:2203.01302(2022).</li>
+                    <li><a id="r9"></a>Thrun, Sebastian, and Tom M. Mitchell. "Lifelong robot learning." Robotics and autonomous systems 15.1-2 (1995): 25-46.</li>
+                    <li><a id="r10"></a>Oztop, Erhan, and Emre Ugur. (2021) Lifelong Robot Learning. In: Ang M.H., Khatib O., Siciliano B. (eds) Encyclopedia of Robotics. Springer, Berlin, Heidelberg, 2021.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
