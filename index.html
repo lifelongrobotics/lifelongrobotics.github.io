@@ -25,9 +25,9 @@
                 <ul class="nav align-self-center">
                     <li class="nav-link"><a class="btn btn-outline-secondary" href="#about">About</a></li>
                     <li class="nav-link"><a class="btn btn-outline-secondary" href="#invited">Invited Speakers</a></li>
+                    <li class="nav-link"><a class="btn btn-outline-secondary" href="#schedule">Schedule</a></li>
                     <li class="nav-link"><a class="btn btn-outline-secondary" href="#cfp">Call for Papers</a></li>
                     <li class="nav-link"><a class="btn btn-outline-secondary" href="#organizing">Organizing</a></li>
-                    <li class="nav-link"><a class="btn btn-outline-secondary" href="#schedule">Schedule</a></li>
                 </ul>
             </nav>
         </div>
@@ -68,6 +68,102 @@
             <div class="col-3"><img src="images/stefanie.jpeg" class="img-fluid rounded"><a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a>, Brown University</div>
             <div class="col-3"><img src="images/tamim.jpeg" class="img-fluid rounded"><a href="https://scholar.google.com/citations?user=65bIT4oAAAAJ&hl=en">Tamim Asfour</a>, Karlsruhe Institute of Technology</div>
             <div class="col-3"><img src="images/yukie.jpeg" class="img-fluid rounded"><a href="https://developmental-robotics.jp/en/members/yukie_nagai/">Yukie Nagai</a>, University of Tokyo</div>
+        </div>
+        <div class="row" id="schedule"><h2>Schedule</h2></div>
+        <div class="row bg-light">
+            <div class="col">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p><b><span style="color: red;">8:50-9:00 (JST, Oct 23)</span> &mdash; <span style="color: green;">1:50-2:00 (CEST, Oct 23)</span> &mdash; <span style="color: blue">19:50-20:00 (EDT, Oct 22)</span></b></p>
+                                Opening remarks
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><b><span style="color: red;">9:00-9:45 (JST, Oct 23)</span> &mdash; <span style="color: green;">2:00-2:45 (CEST, Oct 23)</span> &mdash; <span style="color: blue">20:00-20:45 (EDT, Oct 22)</span></b></p>
+                                <span><b>Speaker:</b> Jeff Clune</span><br>
+                                <p><b>Title:</b> Improving Robot and Deep Reinforcement Learning via Quality Diversity, Open-Ended, and AI-Generating Algorithms</p>
+                                <p><b>Abstract:</b> Quality Diversity (QD) algorithms are those that seek to produce a diverse set of high-performing solutions to problems. I will describe them and a number of their positive attributes. I will summarize how they enable robots, after being damaged, to adapt in 1-2 minutes in order to continue performing their mission. I will next describe our QD-based Go-Explore algorithm, which dramatically improves the ability of deep reinforcement learning algorithms to solve previously unsolvable problems wherein reward signals are sparse, meaning that intelligent exploration is required. Go-Explore solved all unsolved Atari games, including Montezuma's Revenge and Pitfall, considered by many to be a grand challenges of AI research. I will next motivate research into open-ended algorithms, which seek to innovate endlessly, and introduce our POET algorithm, which generates its own training challenges while learning to solve them, automatically creating a curricula for robots to learn an expanding set of diverse skills. Finally, I'll argue that an alternate paradigm &mdash;AI-generating algorithms (AI-GAs)&mdash; may be the fastest path to accomplishing our field's grandest ambition of creating general AI, and describe how QD and Open-Ended algorithms will be essential ingredients of AI-GAs.</p>
+                                <p><b>Bio:</b> Jeff Clune is an Associate Professor of computer science at the University of British Columbia and a faculty member at the Vector Institute. Jeff focuses on deep learning, including deep reinforcement learning. Previously he was a research manager at OpenAI, a Senior Research Manager and founding member of Uber AI Labs (formed after Uber acquired a startup he helped lead), the Harris Associate Professor in Computer Science at the University of Wyoming, and a Research Scientist at Cornell University. He received degrees from Michigan State University (PhD, master's) and the University of Michigan (bachelor's). More on Jeff's research can be found at <a href="http://jeffclune.com">JeffClune.com</a> or on Twitter (<a href="https://twitter.com/jeffclune">@jeffclune</a>).<br>
+                                Since 2015, he won the Presidential Early Career Award for Scientists and Engineers from the White House, had two papers in Nature and one in PNAS, won an NSF CAREER award, received Outstanding Paper of the Decade and Distinguished Young Investigator awards, and had best paper awards, oral presentations, and invited talks at the top machine learning conferences (NeurIPS, CVPR, ICLR, and ICML). His research is regularly covered in the press, including the New York Times, NPR, NBC, Wired, the BBC, the Economist, Science, Nature, National Geographic, the Atlantic, and the New Scientist.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><b><span style="color: red;">9:45-10:30 (JST, Oct 23)</span> &mdash; <span style="color: green;">2:45-3:30 (CEST, Oct 23)</span> &mdash; <span style="color: blue">20:45-21:30 (EDT, Oct 22)</span></b></p>
+                                <span><b>Speaker:</b> Stefanie Tellex</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><b><span style="color: red;">10:30-11:15 (JST, Oct 23)</span> &mdash; <span style="color: green;">3:30-4:15 (CEST, Oct 23)</span> &mdash; <span style="color: blue">21:30-22:15 (EDT, Oct 22)</span></b></p>
+                                <span><b>Speaker:</b> Jorge Mendez</span><br>
+                                <p><b>Title:</b> Lifelong Robot Learning via Functional Compositionality</p>
+                                <p><b>Abstract:</b> In order to be deployed long-term in the real world, machine learning systems must be able to handle the one thing that is constant: change. Traditional machine learning focuses on stationary tasks, and is therefore incapable of adapting to change. Instead, we need lifelong learners that can accumulate knowledge that enables them to rapidly adjust to new tasks. Ideally, pieces of this accumulated knowledge could be composed in different ways to adapt to the shifting environment. This capability would dramatically improve the performance of machine learning systems in dynamic environments: hate-speech detection models could adapt to social media trends, student feedback software could adjust to new cohorts, search-and-rescue robots could handle novel disasters.<br>
+                                Our research develops algorithms for lifelong or continual learning that leverage the intuition that accumulated knowledge should be compositional. In this talk, I will walk through some of the algorithms that we have developed for lifelong supervised and reinforcement learning, and I will show that these compositional methods enable far improved lifelong learning in settings where tasks are highly diverse. I will dive into the important distinction between temporal and functional composition, and describe its relevance towards lifelong robotics. I will finally introduce CompoSuite, a newly released benchmark for lifelong and multitask robot learning that studies the notion of functionally compositional reinforcement learning, and discuss some open questions that can be studied with CompoSuite.</p>
+                                <p><b>Bio:</b> Jorge Mendez is a Postdoctoral Fellow at the Massachusetts Institute of Technology, in the Computer Science and Artificial Intelligence Laboratory (CSAIL). He obtained his Ph.D. from the University of Pennsylvania (UPenn), in the Department of Computer and Information Science and the General Robotics, Automation, Sensing, and Perception (GRASP) Lab. He received a Master's degree in Robotics from UPenn (2018) and a Bachelor's degree in Electronics Engineering from Universidad Simon Bolivar in Venezuela (2016). His primary interests lie in the creation of versatile artificially intelligent systems that learn to accumulate knowledge over their lifetimes. His research leverages a breadth of techniques from transfer learning, multitask learning, compositional learning, representation learning, and reinforcement learning to develop algorithms with applications in computer vision, robotics, and natural language. His work has been recognized with the Best Paper Award in the Lifelong Machine Learning Workshop (ICML, 2020), the third place prize of the Two Sigma Ph.D. Diversity Fellowship (2021), and the School of Engineering Postdoctoral Fellowship for Engineering Excellence from MIT (2022).</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><b><span style="color: red;">11:15-12:00 (JST, Oct 23)</span> &mdash; <span style="color: green;">4:15-5:00 (CEST, Oct 23)</span> &mdash; <span style="color: blue">22:15-23:00 (EDT, Oct 22)</span></b></p>
+                                <span><b>Speaker:</b> George Konidaris</span><br>
+                                <p><b>Title:</b> Reintegrating AI: Skills, Symbols, and the Sensorimotor Dilemma</p>
+                                <p><b>Abstract:</b> I will address the question of how a robot should learn an abstract, task-specific representation of an environment. I will present a constructivist approach, where the computation the representation is required to support - here, planning using a given set of motor skills - is precisely defined, and then its properties are used to build the representation so that it is capable of doing so by construction. The result is a formal link between the skills available to a robot and the symbols it should use to plan with them. I will present an example of a robot autonomously learning a (sound and complete) abstract representation directly from sensorimotor data, and then using it to plan. I will also discuss ongoing work on making the resulting abstractions portable across tasks.</p>
+                                <p><b>Bio:</b> George Konidaris is an Associate Professor of Computer Science at Brown and the Chief Roboticist of Realtime Robotics, a startup commercializing his work on hardware-accelerated motion planning. He holds a BScHons from the University of the Witwatersrand, an MSc from the University of Edinburgh, and a PhD from the University of Massachusetts Amherst. Prior to joining Brown, he held a faculty position at Duke and was a postdoctoral researcher at MIT. George is the recent recipient of an NSF CAREER award, young faculty awards from DARPA and the AFOSR, and the IJCAI-JAIR Best Paper Prize.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><b><span style="color: red;">12:00-13:00 (JST, Oct 23)</span> &mdash; <span style="color: green;">5:00-6:00 (CEST, Oct 23)</span> &mdash; <span style="color: blue">23:00-00:00 (EDT, Oct 22)</span></b></p>
+                                Lunch Break
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><b><span style="color: red;">13:00-14:00 (JST, Oct 23)</span> &mdash; <span style="color: green;">6:00-7:00 (CEST, Oct 23)</span> &mdash; <span style="color: blue">00:00-01:00 (EDT, Oct 23)</span></b></p>
+                                Contributed talks
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><b><span style="color: red;">14:00-14:45 (JST, Oct 23)</span> &mdash; <span style="color: green;">7:00-7:45 (CEST, Oct 23)</span> &mdash; <span style="color: blue">01:00-01:45 (EDT, Oct 23)</span></b></p>
+                                <span><b>Speaker:</b> Tamim Asfour</span><br>
+                                <p><b>Title:</b> Continual Learning for Personal Humanoid Robotics</p>
+                                <p><b>Abstract:</b> Personal humanoid robots that should coexist with humans to assist and collaborate with them should be able to continually learn from interaction with the world and their users to extend the representations needed to reason about the world. The talk will present progress towards 24/7 humanoid robots &mdash; as embodied AI systems &mdash; that learn from experience and verbalize such experience, learn object relations and acquire task representations for manipulation skills from small number of human demonstration videos. The talk will conclude with a discussion of current research directions. </p>
+                                <p><b>Bio:</b> Tamim Asfour is full Professor of Humanoid Robotics at the Institute for Anthropomatics and Robotics at the Karlsruhe Institute of Technology (KIT), Germany. His research focuses on the engineering of high performance 24/7 humanoid robotics. In particular, he studies the mechano-informatics of humanoids as the synergetic integration of informatics, artificial intelligence, and mechatronics into complete humanoid robot systems, which are able perform versatile tasks real world. Tamim is the developer of the ARMAR humanoid robot family. He has been a visiting professor at Georgia Tech, at the Tokyo University of Agriculture and Technology, and at the National University of Singapore. He is Editor-in-Chief and Editor of the Robotics and Automation Letters (RA-L), the Founding Editor-in-Chief of the IEEE-RAS Humanoids Conference Editorial Board, the president of the Executive Board of the German Robotics Society (DGR), and the scientific spokesperson of the KIT Center "Information &middot; Systems &middot; Technologies" (KCIST), <a href="http://www.humanoids.kit.edu">www.humanoids.kit.edu</a></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><b><span style="color: red;">14:45-15:30 (JST, Oct 23)</span> &mdash; <span style="color: green;">7:45-8:30 (CEST, Oct 23)</span> &mdash; <span style="color: blue">01:45-02:30 (EDT, Oct 23)</span></b></p>
+                                <span><b>Speaker:</b> Jun Tani</span><br>
+                                <p><b>Title:</b> Dynamic Goal-directed Planning and Goal Understanding of Robots by Extended Active Inference</p>
+                                <p><b>Abstract:</b> This study shows that goal-directed action planning and generation in a teleological framework can be formulated by extending the active inference framework. The proposed model, which is built on a variational recurrent neural network model, is characterized by three essential features. These are that (1) goals can be specified for both static sensory states, e.g., for goal images to be reached and dynamic processes, e.g., for moving around an object, (2) the model cannot only generate goal-directed action plans, but can also understand goals through sensory observation, and (3) the model generates future action plans for given goals based on the best estimate of the current state, inferred from past sensory observations. The proposed model is evaluated by conducting experiments on a real humanoid robot performing object manipulation. I'll also briefly describe the current on-going study on dynamic replanning against interferences and incremental tutoring for recovery.</p>
+                                <p><b>Bio:</b> Jun Tani received the D.Eng. degree from Sophia University, Tokyo in 1995. He started his research career with Sony Computer Science Lab. in 1993. He became a Team Leader of the Laboratory for Behavior and Dynamic Cognition, RIKEN Brain Science Institute, Saitama, Japan in 2001. He became a Full Professor with the Electrical Engineering Department, Korea Advanced Institute of Science and Technology, Daejeon, South Korea in 2012. He is currently a Full Professor with the Okinawa Institute of Science and Technology, Okinawa, Japan. He is also a visiting professor of The Technical University of Munich. His current research interests include cognitive neuroscience, developmental psychology, phenomenology, complex adaptive systems, and robotics. He is an author of "Exploring Robotic Minds: Actions, Symbols, and Consciousness as Self-Organizing Dynamic Phenomena." published from Oxford Univ. Press in 2016.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><b><span style="color: red;">15:30-16:15 (JST, Oct 23)</span> &mdash; <span style="color: green;">8:30-9:15 (CEST, Oct 23)</span> &mdash; <span style="color: blue">02:30-03:15 (EDT, Oct 23)</span></b></p>
+                                <span><b>Speaker:</b> Minoru Asada</span><br>
+                                <p><b>Title:</b> How Human Brain Develops in the Process of Self-face Recognition, Bodily Awareness and Self-awareness</p>
+                                <p><b>Abstract:</b> In this talk, we will explain how human brain develops in the process of self-face recognition, bodily awareness and self-awareness based on fMRI studies. First, we have shown that similar to slow maturation of neural processing for face recognition, neural substrates of self-face recognition slowly developed in typically developing humans. Next, the developmental process of bodily awareness showed U-shape change from children to adults, more correctly, suppression of the left-sided IPL activity is found in adolescents. Finally, we examined the development and aging of brain deactivation using a unimanual motor task, and found that brain inhibition develops and declines through aging. Based on these studies, we discuss how to design life-long learning robots.</p>
+                                <p><b>Bio:</b> Minoru Asada received his B.E. (1977), M.E. (1979), and Ph.D. (1982) in Control Engineering from Osaka University, Osaka, Japan. He became a full Professor of Mechanical Engineering for Computer-Controlled Machinery at Osaka University in 1995. Since April 1997, he has been a Professor at the Department of Adaptive Machine Systems at Osaka University (Suita, Japan). Since 2013, he has been the director of the division of cognitive neuroscience robotics, the Institute for Academic Initiatives (IAI), Osaka University. He was the Research Director of the JST (Japan Science and Technology Agency) ERATO (Exploratory Research for Advanced Technology) ASADA Synergistic Intelligence Project during 2005 and 2012. In 2012, the Japan Society for Promotion of Science (JSPS) named him to serve as the Research Leader for the Specially Promoted Research Project (Tokusui) on Constructive Developmental Science Based on Understanding the Process From Neuro-Dynamics to Social Interaction.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><b><span style="color: red;">16:15-17:00 (JST, Oct 23)</span> &mdash; <span style="color: green;">9:15-10:00 (CEST, Oct 23)</span> &mdash; <span style="color: blue">03:15-04:00 (EDT, Oct 23)</span></b></p>
+                                <span><b>Speaker:</b> Yukie Nagai</span><br>
+                                <p><b>Bio:</b> Yukie Nagai is a Project Professor at the International Research Center for Neurointelligence, the University of Tokyo. She received her Ph.D. in Engineering from Osaka University in 2004 and then worked at the National Institute of Information and Communications Technology, Bielefeld University, and Osaka University. Since 2019, she leads Cognitive Developmental Robotics Lab at the University of Tokyo. Her research interests include cognitive developmental robotics, computational neuroscience, and assistive technologies for developmental disorders. She has been investigating underlying neural mechanisms for social cognitive development by means of computational approaches. She was elected to "30 women in robotics you need to know about" in 2019 and "World's 50 Most Renowned Women in Robotics" in 2020.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
         <div class="row" id="cfp"><h2>Call for Papers</h2></div>
         <div class="row">
@@ -123,12 +219,6 @@
                 <div class="col-4"><a href="https://www.tanichu.com">Tadahiro Taniguchi</a><br>Ritsumeikan University, Japan</div>
                 <div class="col-2"><img src="images/emre.jpeg" class="img-fluid rounded"></div>
                 <div class="col-4"><a href="https://www.cmpe.boun.edu.tr/~emre/">Emre Ugur</a><br>Bogazici University, Turkey</div>
-            </div>
-        </div>
-        <div class="row" id="schedule"><h2>Schedule</h2></div>
-        <div class="row">
-            <div class="col">
-                To be announced.
             </div>
         </div>
         <div class="row"><h3>References</h3></div>
